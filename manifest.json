@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "UUID to clipboard plugin",
+    "description": "This extension will let you get your favourites stories uuids directly to your clipboard!",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "clipboardWrite"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistence": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.lavanguardia.com/*",
+                "https://www.mundodeportivo.com/*",
+                "https://www.rac1.cat/*"
+            ],
+            "js": [
+                "uuidExtractor.js"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    }
+}
