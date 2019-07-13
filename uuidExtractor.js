@@ -4,8 +4,7 @@ chrome.runtime.onMessage.addListener(function (mssg, sender, sendResponse) {
         var uuid = extractUUIDFromComment(firstComment);
         copyTextToClipboard(uuid);
     }
-});
-
+})
 
 function getFirstComment() {
     var iterator = window.document.createNodeIterator(window.document.head, NodeFilter.SHOW_COMMENT);

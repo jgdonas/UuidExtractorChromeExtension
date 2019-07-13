@@ -12,7 +12,8 @@
     ],
     "background": {
         "scripts": [
-            "background.js"
+            "background.js",
+            "iconHandler.js"
         ],
         "persistence": false
     },
