@@ -20,10 +20,11 @@
     "content_scripts": [
         {
             "matches": [
+		"http://localhost/*",
                 "https://www.lavanguardia.com/*",
                 "https://www.mundodeportivo.com/*",
                 "https://www.rac1.cat/*",
-				"https://www.lavanguardia.biz/*",
+		"https://www.lavanguardia.biz/*",
                 "https://www.mundodeportivo.biz/*",
                 "https://www.rac1.biz/*",
 		"http://sg-des-meth01-worker.grupogodo.des:3770/LV/*",
