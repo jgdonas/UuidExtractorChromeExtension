@@ -16,7 +16,8 @@ var allowedHosts = [
 		"rac1",
 		"sg-des-",
 		"sg-tes-",
-		"sg-pro-"
+		"sg-pro-",
+		"localhost:80"
 ];
 
 function setIcon(tab) {
