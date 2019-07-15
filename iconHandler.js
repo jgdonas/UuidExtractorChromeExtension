@@ -14,6 +14,7 @@ var allowedHosts = [
 		"lavanguardia", 
 		"mundodeportivo", 
 		"rac1",
+		"sg-des-",
 		"sg-tes-",
 		"sg-pro-"
 ];
