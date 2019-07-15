@@ -10,7 +10,13 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
     chrome.tabs.get(activeInfo.tabId, setIcon)
 });
 
-var allowedHosts = ["lavanguardia.com", "mundodeportivo.com", "rac1.cat"];
+var allowedHosts = [
+		"lavanguardia", 
+		"mundodeportivo", 
+		"rac1",
+		"sg-tes-",
+		"sg-pro-"
+];
 
 function setIcon(tab) {
     var currentUrl = tab.url;
