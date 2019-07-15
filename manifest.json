@@ -22,7 +22,16 @@
             "matches": [
                 "https://www.lavanguardia.com/*",
                 "https://www.mundodeportivo.com/*",
-                "https://www.rac1.cat/*"
+                "https://www.rac1.cat/*",
+				"https://www.lavanguardia.biz/*",
+                "https://www.mundodeportivo.biz/*",
+                "https://www.rac1.biz/*",
+				"http://sg-tes-meth01-worker.grupogodo.tes:3770/LV/*",
+				"http://sg-pro-meth01-worker.grupogodo.local:3770/LV/*",
+				"http://sg-tes-meth01-worker.grupogodo.tes:3776/MD/*",
+				"http://sg-pro-meth01-worker.grupogodo.local:3776/MD/*",
+				"http://sg-tes-meth01-worker.grupogodo.tes:3782/R1/*",
+				"http://sg-pro-meth01-worker.grupogodo.local:3782/R1/*"
             ],
             "js": [
                 "uuidExtractor.js"
